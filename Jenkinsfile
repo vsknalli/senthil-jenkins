@@ -6,15 +6,15 @@ pipeline {
                 echo "Build"
             }
         }
-        stage('Build') {
+        stage('Test') {
             steps {
-                echo "Build"
+                echo "Test"
             }
         }
 
-        stage('Build') {
+        stage('Integratin Test') {
             steps {
-                echo "Build"
+                echo "Integration Test"
             }
         }
     }
