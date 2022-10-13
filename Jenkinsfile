@@ -1,7 +1,7 @@
 pipeline {
     //agent any 
     //agent { docker { image 'maven:3.6.3'} }
-    agent { docker { image 'node:13.8'} }
+    agent { docker { image 'appdynamics/nodejs-agent:22.9.0-16-stretch-slim'} }
     stages {
         stage ('Build') {
             steps {
