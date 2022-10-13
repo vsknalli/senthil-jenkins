@@ -1,8 +1,8 @@
 node {
-    state('Build') {
+    stage('Build') {
         echo "Build"
     }
-    state('Test') {
+    stage('Test') {
         echo "Test"
     }
 }
